@@ -1,0 +1,7 @@
+services:
+  API_TESTER:
+    image: api-tester:v1.0
+    container_name: API_TESTER
+    ports:
+      - 5000:5000
+    restart: unless-stopped
